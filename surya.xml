@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="octo-pe/device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="twelve" />
+    <project name="Stratosphere-Kernel/android_kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="staging/LA.UM.9.x" />
+    <project name="ProjectStreak-Devices/vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="github" revision="twelve" />
+</manifest>

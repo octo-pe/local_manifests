@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- extendrom -->
+    <project path="vendor/extendrom" name="octo-pe/android_vendor_extendrom" remote="github" revision="main" />
+    <!-- F-Droid -->
+    <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+    <project path="packages/apps/F-DroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="master" />
+    <!-- octo customizations -->
+    <remove-project name="frameworks_base"/>
+    <project path="frameworks/base" name="octo-pe/frameworks_base" remote="github" revision="twelve" />
+    <project path="vendor/octo" name="octo-pe/android_vendor_octo" remote="github" revision="twelve" />
+</manifest>
